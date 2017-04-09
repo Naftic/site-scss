@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "Blooming Grove";
+  src: url('/fonts/examples/bgrove.ttf') format('truetype'), url('/fonts/examples/bgrove.otf') format('opentype');
+}
+.serg {
+  -moz-animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -moz-column-count: 4;
+  -webkit-column-count: 4;
+  column-count: 4;
+  -moz-column-rule: 1px solid red;
+  -webkit-column-rule: 1px solid red;
+  column-rule: 1px solid red;
+  width: 300px;
+  margin-bottom: 20px;
+  -moz-transform: scaleX(1.25);
+  -ms-transform: scaleX(1.25);
+  -webkit-transform: scaleX(1.25);
+  transform: scaleX(1.25);
+  text-decoration: none;
+}
+.serg html, .serg body {
+  height: 100%;
+}
+.serg #root {
+  clear: both;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: -54px;
+}
+.serg #root #root_footer {
+  height: 54px;
+}
+.serg #footer {
+  clear: both;
+  position: relative;
+  height: 54px;
+}
+.serg:hover, .serg:focus {
+  text-decoration: underline;
+}
+.serg .example {
+  background: url('/images/foo.png');
+  font-family: "Blooming Grove";
+  font-size: 1.5em;
+}
+
+input:-moz-placeholder, textarea:-moz-placeholder {
+  color: #bfbfbf;
+  font-style: italic;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: #bfbfbf;
+  font-style: italic;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  color: #bfbfbf;
+  font-style: italic;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #bfbfbf;
+  font-style: italic;
+}
+
+a {
+  color: #00c;
+}
+a:visited {
+  color: #ccc;
+}
+a:focus {
+  color: #cc0;
+}
+a:hover {
+  color: #0cc;
+}
+a:active {
+  color: #c0c;
+}
+
+.item-1 {
+  width: 2em;
+}
+
+.item-2 {
+  width: 4em;
+}
+
+.item-3 {
+  width: 6em;
+}

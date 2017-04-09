@@ -1,0 +1,42 @@
+.serge{
+  width : 10px;
+  height: 20px;
+  display: block;
+  display: block;
+  float: left;
+  line-height: 10px;
+
+}
+
+selector{
+  property : value;
+}
+
+
+:after {
+	content: '';
+	position: absolute;
+	-webkit-transition: all .25s ease|linear|ease-in|ease-out|ease-in-out|cubic-bezier(<number>,<number>,<number>,<number>);
+	   -moz-transition: all .25s ease|linear|ease-in|ease-out|ease-in-out|cubic-bezier(<number>,<number>,<number>,<number>);
+	    -ms-transition: all .25s ease|linear|ease-in|ease-out|ease-in-out|cubic-bezier(<number>,<number>,<number>,<number>);
+	     -o-transition: all .25s ease|linear|ease-in|ease-out|ease-in-out|cubic-bezier(<number>,<number>,<number>,<number>);
+	        transition: all .25s ease|linear|ease-in|ease-out|ease-in-out|cubic-bezier(<number>,<number>,<number>,<number>);
+	-webkit-transform: translate(10px,10px);
+	   -moz-transform: translate(10px,10px);asd
+	    -ms-transform: translate(10px,10px);
+	     -o-transform: translate(10px,10px);
+	        transform: translate(10px,10px);
+
+
+	        -webkit-animation: test duration timing-function delay iteration-count direction fill-mode;
+	        -o-animation: test duration timing-function delay iteration-count direction fill-mode;
+	        animation: test duration timing-function delay iteration-count direction fill-mode;
+
+
+text-underline-position: 
+
+
+}
+
+
+	

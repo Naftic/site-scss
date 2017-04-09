@@ -1,0 +1,40 @@
+@import "compass/css3";
+@import "compass/css3/animation";
+@import "compass/css3/transform";
+@import "compass/layout/sticky-footer";
+@import "compass/typography/links/hover-link";
+@import "compass/typography/links/link-colors";
+$name:'123';
+ @include font-face("Blooming Grove", font-files("examples/bgrove.ttf", "examples/bgrove.otf"));
+.serg {
+    @include animation-duration(1s);
+    @include column-count(4);
+    @include column-rule(1px, solid, red);
+    width: 300px;
+    margin-bottom: 20px;
+    @include scaleX($default-scale-x);
+    @include sticky-footer(54px);
+    @include hover-link;
+   
+    .example {
+    	@include background(image-url("foo.png"));
+        font-family: "Blooming Grove";
+        font-size: 1.5em;
+    }
+}
+
+#{elements-of-type(text-input)} {
+  @include input-placeholder {
+    color: #bfbfbf;
+    font-style: italic;
+  }
+}
+
+a {
+    @include link-colors(#00c, #0cc, #c0c, #ccc, #cc0);
+}
+@for $i from 1 through 3 {
+    .item-#{$i} {
+        width: 2em * $i;
+    }
+}
