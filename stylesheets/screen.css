@@ -64,6 +64,10 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
   font-style: italic;
 }
 
+.less{
+  height: 500px;
+}
+
 a {
   color: #00c;
 }
